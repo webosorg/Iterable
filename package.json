@@ -1,0 +1,31 @@
+{
+  "name": "@webos/iterable",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/iterable.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src --out-dir dist",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webosorg/Iterable.git"
+  },
+  "keywords": [
+    "iterable"
+  ],
+  "author": "SurenAt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/webosorg/Iterable/issues"
+  },
+  "homepage": "https://github.com/webosorg/Iterable#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.0.0-beta.36",
+    "@babel/plugin-proposal-async-generator-functions": "^7.0.0-beta.36",
+    "@babel/plugin-proposal-pipeline-operator": "^7.0.0-beta.36",
+    "@babel/preset-es2017": "^7.0.0-beta.36"
+  },
+  "dependencies": {}
+}
